@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+dist/
+.cache/
+*.log
+
+# Yarn
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+.yarnrc.yml
+
+# Output images
+public/webp/
+
+# OS & IDE
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
