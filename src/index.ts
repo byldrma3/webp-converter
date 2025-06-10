@@ -6,8 +6,8 @@
  *
  * Example usage:
  *
- * import { convert } from 'webp-converter'
- * await convert('public', 'public/webp')
+ * yarn run convert
+ *
  * @author byldrma3
  * @version 1.0.0
  */
