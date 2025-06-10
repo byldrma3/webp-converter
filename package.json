@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "convert": "tsx src/index.ts"
+    "convert": "tsx src/index.ts",
+    "format": "prettier --write src/**/*.ts"
   },
   "dependencies": {
     "fast-glob": "^3.3.1",
@@ -14,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
+    "prettier": "^3.5.3",
     "tsx": "^4.7.0",
     "typescript": "^5.4.2"
   },
