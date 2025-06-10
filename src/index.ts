@@ -92,7 +92,7 @@ export const convert = async (
 }
 
 const logger = {
-    success: (message: string) => console.log(`✅  ${message}`),
+    success: (message: string) => console.log(`✅ ${message}`),
     skipped: (message: string) => console.log(`⏭️ ${message}`),
     found: (message: string) => console.log(`🔍 ${message}`),
     looking: (message: string) => console.log(`📂 ${message}`),
