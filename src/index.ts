@@ -40,7 +40,7 @@ export interface ConvertOptions {
  * Converts supported image files from inputDir to .webp format in outputDir
  */
 export const convert = async (
-    inputDir: string = 'public',
+    inputDir: string = 'public/images',
     outputDir: string = 'public/webp',
     options: ConvertOptions = {},
 ): Promise<void> => {
