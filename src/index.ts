@@ -82,7 +82,9 @@ export const convert = async (
         }
 
         try {
-            await sharp(file).webp({ quality }).toFile(outputFile)
+            await sharp(file, { density: 300 })
+                .webp({ quality })
+                .toFile(outputFile)
             if (verbose)
                 logger.success(`Converted: ${relativePath} → ${logOutputPath}`)
         } catch (error) {
